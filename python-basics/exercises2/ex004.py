@@ -1,0 +1,10 @@
+algo = input('Digite algo: ')
+print('O objeto é do tipo: ', type(algo))
+print('O objeto é alpha? ', algo.isalpha())
+print('O objeto é numeric? ', algo.isnumeric())
+print('O objeto é alphanum? ', algo.isalnum())
+print('O objeto esta somente em maiúsculas? ', algo.isupper())
+print('O objeto esta somente em minusculas? ', algo.islower())
+print('O objeto é um espaço? ', algo.isspace())
+print('O objeto está capitalizado? ', algo.istitle())
+
